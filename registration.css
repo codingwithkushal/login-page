@@ -4,7 +4,7 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/psyche.jpg);
+    background-image: url(./psyche.jpg);
 }
 .container{
     padding-right: 230px;
