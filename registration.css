@@ -2,9 +2,8 @@
     font-family: 'Roboto', sans-serif;
 }
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
-/*     background-image: url(./psyche.jpg); */
+background-size: 400% 400%;
+	height: 100vh;
     background-color: #fcce00;
 }
 .container{
