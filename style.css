@@ -1,0 +1,149 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+	background-size: 400% 400%;
+	height: 100vh;
+    background: linear-gradient(90deg, rgba(0,198,255,1) 0%, rgba(201,139,240,1) 50%, rgba(235,0,255,1) 100%);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    margin: auto;
+    width: 375px;
+  display: block;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.profile{
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+height: 20px;
+}
+h2{
+    text-align: center;
+}
+.username, .person, .lock{
+    padding-left: 38px;
+}
+#name{
+    border-style: none;
+}
+.lock{
+    padding-top: 1px;
+}
+
+hr{
+    width:300px;
+    text-align:left;
+    margin-left:0"
+}
+.right{ 
+    padding-right: 35px; 
+    color: black;
+   font-size: 13px;
+   text-align: right;   
+   cursor: pointer;
+}
+.right:hover{
+    color: red;
+}
+.cbtn{
+    display: flex;
+    justify-content: center;
+}
+.loginbutton{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(0,198,255,1) 0%, rgba(201,139,240,1) 50%, rgba(235,0,255,1) 100%);
+}
+.inbtn{
+    margin-top: 7.9px;
+    font-size: 13.5px;
+    cursor: pointer;
+    color:white;
+}
+.homeinput{
+    width: 280px;
+    border-radius: 24px;
+    padding: 5px 5px;
+  }
+  .modal {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal.open {
+    opacity: 1;
+    z-index: 999;
+    }
+    .modal-inner {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px 25px 22px 25px;
+    text-align: center;
+    width: 451px;
+    }
+    .modal-inner h2 {
+    margin: 0 0 20px 0;
+    }
+    .poptext {
+       line-height: 24px;
+       margin: 0px 0;
+       text-align: start;
+        }
+        .popemail{
+          text-align: justify;
+        }
+     .popinput{
+        width: 440px;
+        height: 25px;
+        margin-top: -10px;
+     }
+     .popbutton{
+        border-radius: 5px;
+        border: none;
+        background-color: #316FF6;
+        height: 30px;
+        width: 439px;
+        margin-top: 15px;
+     }
+     .popback{
+        color: #316FF6;
+        cursor: pointer;
+     }
+     .linkreg{
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+     }
+     .logo{
+        margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+     }
+     .reg{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+     }
+   

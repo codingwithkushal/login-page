@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="./logo/slack.svg" alt="" class="profile">
+        </div>
+     <h2>Login</h2>
+     <p class="username">Username</p>
+     <img src="./logo/person.svg" alt="" class="person" >
+     <input type="text" class="homeinput" name="text" id="name" placeholder="Type your username">
+     <hr>
+     <p class="username">Password</p>
+     <img src="./logo/lock.svg" alt="" class="lock" >
+     <input type="password" class="homeinput" name="text" id="name" placeholder="Type your password">
+     <hr>
+    <p class="right" id="openModal">Forgot password?</p>
+    <div class="cbtn">
+        <button type="submit" class="loginbutton"><span class="inbtn">LOGIN</span></button>
+    </div> 
+    <div class="modal" id="modal">
+    <div class="modal-inner">
+    <h2>Forgot Your Password?</h2>
+    <p class="poptext">
+   Recover your password Please enter your email address below to receive a password reset link.
+    </p>
+    <p class="popemail">Enter your email address</p>
+    <input type="email" class="popinput" >
+    <button  class="popbutton" id="alertButton"><span class="inbtn" id="popupButton">Next</span></button>
+    <p class="popback" id="closeModal">Back to log in</p>
+    </div>
+</div>
+<p class="linkreg">Or Sign up using</p>
+<div class="logo">
+    <a href="www.facebook.com"><img src="./logo/facebook.svg" alt="" height="40px"></a>
+    <a href="www.twitter.com"><img src="./logo/twitter.svg" alt="" height="40px"></a>
+    <a href="www.gmail.com"><img src="./logo/gmail.svg" alt="" height="40px"></a>
+</div>
+<div class="reg">New User?&nbsp;<a href="./registration.html"> Create an account</a></div>
+
+<script src="script.js"></script>
+</body>
+</html>

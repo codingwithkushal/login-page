@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+     <h2>Registration</h2>
+    </div>
+    <div class="head">
+        <h2 class="head1">Create a new account</h2>
+        <p class="head2">It's quick and easy.</p>
+    </div>
+    <hr class="hr">
+    <div class="input">
+    <input type="text" class="inputname" placeholder="First name">
+    <input type="text"class= "inputname" placeholder="Surname">
+</div>
+<div class="inputemail">
+<input type="text" class="inputtext" placeholder="Mobile number or email addreass">
+<input type="password" class="inputtext" placeholder="New password"></div>
+   <div class="date"> <p>Date of birth</p>
+    <input class="overlay" type="date" name="" id="">
+</div>
+<div class="gender">
+    <label for="gender">Gender:</label>
+</div>
+  <select name="gender" id="myDropdown">
+    <option value="" selected disabled>Select an option</option>
+    <option value="option1">Male</option>
+    <option value="option2">Female</option>
+  </select>
+  <div class="checkbox">
+  <input type="checkbox" name="terms" id="terms">&nbsp;Terms and Conditins
+  <br>
+  <input type="checkbox" name="terms" id="policy">&nbsp;Privacy Policy
+</div>
+<!-- code inect -->
+<div class="modal" id="modal">
+<div class="modal-inner">
+    <img src="./logo/checkmark.svg" alt="" height="50px" width="55px">
+<h2>ACCOUNT CREATED SUCCESSFULLY</h2>
+<p class="poptext">
+    You have successfully signed into your account. You can close this window and continue using the Website.
+</p>
+<button  class="popbutton" id="closeModal">Close window</button>
+</div>
+</div>
+<!-- end innet -->
+<div class="signup">
+    <button id="openModal">Sign Up</button>
+</div>
+<a href="./index.html" class="backtologin">Already have an account?</a>
+</div> 
+<script src="./registration.js"></script>
+</body>
+</html>

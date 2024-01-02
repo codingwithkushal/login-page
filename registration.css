@@ -1,0 +1,230 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/psyche.jpg);
+}
+.container{
+    padding-right: 230px;
+    background-color:transparent;
+    height: 515px;
+    margin: auto;
+    width: 400px;
+  display: block;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.header{
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+height: 20px;
+}
+.head1, .head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head1{
+  margin-top: 50px;
+}
+.head2{
+    margin-top: -15px;
+}
+hr{
+    border: none;
+    background-color: black;
+    height: 2px;
+    width: 360px;
+    border-radius: 10px;
+    width:360px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inputname{
+    width: 165px;
+    height: 20px;
+}
+.inputemail{
+    display: grid;
+    justify-content: center;
+    margin-top: 1px;
+}
+.inputtext{
+    margin-top: 14px;
+    width: 359px;
+    height: 20px;
+}
+.date{
+    margin-left: 18px;
+    display: inline-block;
+}
+.date p{
+    margin-top: 10px;
+}
+.gender{
+    position: relative;
+    margin-top: -56px;
+    display: flex;
+    justify-content: end;
+    margin-right: 56px;
+}
+select{
+    height: 24px;
+    margin-top: 15px;
+    margin-left: 265px;
+}
+.checkbox{
+    margin: 14px 0 0 15px;
+}
+.overlay{
+    position: relative;
+}
+.signup{
+    margin-top: 51px;
+    justify-content: center;
+    display: flex;
+}
+.signup button text{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif!important;
+    font-weight: bold
+}
+
+.signup button {
+    background: none;
+    cursor: pointer;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none
+}
+.backtologin{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+/* codeinect */
+
+  .modal {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal.open {
+    opacity: 1;
+    z-index: 999;
+    }
+    .modal-inner {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px 25px 22px 25px;
+    text-align: center;
+    width: 451px;
+    }
+    .modal-inner h2 {
+    margin: 15px 0 15px 0;
+    }   
+     .popbutton{
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        background-color: #316FF6;
+        height: 30px;
+        width: 200px;
+        margin-top: 15px;
+        cursor: pointer;
+     }
+     .popback{
+        color: #316FF6;
+        cursor: pointer;
+     }
+
+
+     /* code inject for media query chatgpt */
+
+     /* Common styles outside media queries */
+
+/* For devices up to 480px width (typical mobile phones) */
+@media (max-width: 480px) {
+    .container {
+      padding-right: 10px; /* Adjust padding for smaller screens */
+      width: 90%; /* Occupy most of the screen width */
+      margin-top: 50px; /* Adjust top margin */
+    }
+  
+    .header {
+        margin-top: 10px;
+    }
+    .head1 {
+      margin-top: 50px; /* Adjust margins for headers */
+    }
+    .head2{
+        margin-top: -15px;
+    }
+  
+    .date {
+      margin-left: 5px; /* Adjust margin for date */
+    }
+  
+    .gender {
+      margin-top: -40px; /* Adjust position for gender */
+      margin-right: 20px; /* Adjust right margin */
+    }
+  
+    select {
+      margin-top: 10px; /* Adjust margin for select inputs */
+      margin-left: 180px; /* Adjust left margin */
+    }
+  
+    .signup {
+      margin-top: 30px; /* Adjust margin for signup section */
+    }
+  
+    .signup button {
+      font-size: 16px; /* Adjust font size for button */
+      padding: 0 20px; /* Adjust padding */
+    }
+  
+    .backtologin {
+      margin-top: 10px; /* Adjust margin for back to login section */
+    }
+  }
+  
+  /* For devices between 481px and 768px width (larger mobile phones and small tablets) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    /* Adjust styles for medium-sized devices if needed */
+  }
+  
+  /* For devices between 769px and 1024px width (tablets and small laptops) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust styles for tablets and small laptops if needed */
+  }
+  
+  /* For devices larger than 1024px width (desktops and larger screens) */
+  @media (min-width: 1025px) {
+    /* Adjust styles for larger screens if needed */
+  }
+  
