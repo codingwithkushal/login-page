@@ -18,5 +18,5 @@ openBtn.addEventListener("click", () => {
 });
 
 document.getElementById("closeModal").onclick = function () {
-    location.href = "/index.html";
+    location.href = "./index.html";
 };
