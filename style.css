@@ -146,4 +146,18 @@ hr{
     justify-content: center;
     margin-top: 75px;
      }
-   
+    @media (max-width: 480px) {
+        .modal-inner {
+            width: 315px; /* Adjust width for smaller screens */
+            padding: 10px; /* Adjust padding */
+          }
+        
+          .popbutton {
+            width: 315px; /* Adjust button width */
+            margin-top: 15px; /* Adjust margin */
+            font-size: 14px; /* Adjust font size */
+          }
+          .popinput{
+            width: 309px;
+          }
+        }    
