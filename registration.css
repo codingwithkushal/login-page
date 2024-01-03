@@ -1,97 +1,117 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
 }
+
 body {
-background-size: 400% 400%;
-	height: 100vh;
-    background-color: #fcce00;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(/psyche.jpg); */
+    background-color: limegreen;
 }
-.container{
-    padding-right: 230px;
-    background-color:transparent;
-    height: 515px;
+
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 550px;
     margin: auto;
-    width: 400px;
+    width: 375px;
   display: block;
   margin-top: 100px;
   border-radius: 10px;
 }
-.header{
+
+.header {
     margin-top: 10px;
-display: flex;
-justify-content: center;
-height: 20px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
 }
-.head1, .head2{
+
+.head1,
+.head2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.head1{
-  margin-top: 50px;
+
+.head1 {
+    margin-top: 50px;
 }
-.head2{
+
+.head2 {
     margin-top: -15px;
 }
-hr{
+
+hr {
     border: none;
     background-color: black;
     height: 2px;
     width: 360px;
     border-radius: 10px;
-    width:360px;
+    width: 360px;
 }
-.input{
+
+.input {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.inputname{
+
+.inputname {
     width: 165px;
     height: 20px;
 }
-.inputemail{
+
+.inputemail {
     display: grid;
     justify-content: center;
     margin-top: 1px;
 }
-.inputtext{
+
+.inputtext {
     margin-top: 14px;
     width: 359px;
     height: 20px;
 }
-.date{
+
+.date {
     margin-left: 18px;
     display: inline-block;
 }
-.date p{
+
+.date p {
     margin-top: 10px;
 }
-.gender{
+
+.gender {
     position: relative;
     margin-top: -56px;
     display: flex;
     justify-content: end;
-    margin-right: 56px;
+    margin-right: 89px;
 }
-select{
+
+select {
     height: 24px;
     margin-top: 15px;
-    margin-left: 265px;
+    margin-left: 220px;
 }
-.checkbox{
+
+.checkbox {
     margin: 14px 0 0 15px;
 }
-.overlay{
+
+.overlay {
     position: relative;
 }
-.signup{
+
+.signup {
     margin-top: 51px;
     justify-content: center;
     display: flex;
 }
-.signup button text{
-    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif!important;
+
+.signup button text {
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif !important;
     font-weight: bold
 }
 
@@ -110,7 +130,8 @@ select{
     padding: 0 32px;
     text-shadow: none
 }
-.backtologin{
+
+.backtologin {
     margin-top: 18px;
     display: flex;
     justify-content: center;
@@ -118,7 +139,7 @@ select{
 
 /* codeinect */
 
-  .modal {
+.modal {
     background-color: rgba(0, 0, 0, 0.3);
     opacity: 0;
     position: fixed;
@@ -131,50 +152,54 @@ select{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .modal.open {
+}
+
+.modal.open {
     opacity: 1;
     z-index: 999;
-    }
-    .modal-inner {
+}
+
+.modal-inner {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 15px 25px 22px 25px;
     text-align: center;
     width: 451px;
-    }
-    .modal-inner h2 {
+}
+
+.modal-inner h2 {
     margin: 15px 0 15px 0;
-    }   
-     .popbutton{
-        color: #fff;
-        border-radius: 5px;
-        border: none;
-        background-color: #316FF6;
-        height: 30px;
-        width: 200px;
-        margin-top: 15px;
-        cursor: pointer;
-     }
-     .popback{
-        color: #316FF6;
-        cursor: pointer;
-     }
-     /* Common styles outside media queries */
+}
+
+.popbutton {
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    background-color: #316FF6;
+    height: 30px;
+    width: 200px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.popback {
+    color: #316FF6;
+    cursor: pointer;
+}
+
+
+/* code inject for media query chatgpt */
 
 @media (max-width: 480px) {
-    .container {
-            margin-right: 25px}
-
-            .head2, .head1, h2, .signup, .backtologin{
-                margin-right: 45px
-            }
-            .modal-inner {
-                margin-bottom: 630px;
-               margin-right: 301px;
-               width: 300px;
-               padding: 8px;
-              }
-        }
-  
+    .modal-inner {
+        width: 315px; /* Adjust width for smaller screens */
+        padding: 10px; /* Adjust padding */
+      }
+    
+      .popbutton {
+        width: 315px; /* Adjust button width */
+        margin-top: 15px; /* Adjust margin */
+        font-size: 14px; /* Adjust font size */
+      }
+    }
