@@ -166,7 +166,7 @@ select{
 /* For devices up to 480px width (typical mobile phones) */
 @media (max-width: 480px) {
     .container {
-        padding-right: 10px;
+        padding-right: 30px;
         /* Adjust padding for smaller screens */
         width: 90%;
         /* Occupy most of the screen width */
@@ -178,10 +178,12 @@ select{
     .head1 {
         margin-top: 25px;
         /* Adjust margins for headers */
+        margin-right: 62px;
     }
 
     .head2 {
         margin-top: -11px;
+	margin-right: 62px;
     }
 
     .date {
@@ -189,27 +191,27 @@ select{
         /* Adjust margin for date */
     }
 
-    .inputemail,
-    .inputtext {
-        width: 325px;
+    .inputemail,.inputtext {
+        width: 277px;
     }
 
     .gender {
         margin-top: -59px;
         /* Adjust position for gender */
-        margin-right: 20px;
+        margin-right: 121px;
         /* Adjust right margin */
     }
 
     .inputname {
-        margin-left: 4px;
-        width: 156px;
+    margin-right: 26px;
+    margin-left: -4px;
+    width: 124px;
     }
 
     select {
         margin-top: 18px;
         /* Adjust margin for select inputs */
-        margin-left: 208px;
+        margin-left: 156px;
         /* Adjust left margin */
     }
 
