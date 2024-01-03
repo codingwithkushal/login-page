@@ -165,65 +165,16 @@ select{
 
 @media (max-width: 480px) {
     .container {
-        padding-right: 10px;
-        /* Adjust padding for smaller screens */
-        width: 90%;
-        /* Occupy most of the screen width */
-        margin-top: 50px;
-        /* Adjust top margin */
-    }
+            margin-right: 25px}
 
-    .header,
-    .head1 {
-        margin-right: 33px;
-        margin-top: 25px;
-        /* Adjust margins for headers */
-    }
-
-    .head2 {
-        margin-right: 33px;
-        margin-top: -11px;
-    }
-
-    .date {
-        margin-left: 5px;
-        /* Adjust margin for date */
-    }
-
-    .inputemail,
-    .inputtext {
-        width: 325px;
-    }
-
-    .gender {
-        margin-top: -59px;
-        /* Adjust position for gender */
-        margin-right: 95px;
-        /* Adjust right margin */
-    }
-
-    .inputname {
-        margin-right: -13px;
-        margin-left: -74px;
-    }
-
-    select {
-        margin-top: 18px;
-        /* Adjust margin for select inputs */
-        margin-left: 208px;
-        /* Adjust left margin */
-    }
-
-    .modal-inner {
-        margin-right: 55px;
-        width: 315px; /* Adjust width for smaller screens */
-        padding: 10px; /* Adjust padding */
-      }
-    .checkbox{
-        margin: 13px 0 0 -5px;
-    }
-    .signup, .backtologin{
-        margin-right: 55px;
-    }
-}
+            .head2, .head1, h2, .signup, .backtologin{
+                margin-right: 45px
+            }
+            .modal-inner {
+                margin-bottom: 630px;
+               margin-right: 301px;
+               width: 300px;
+               padding: 8px;
+              }
+        }
   
