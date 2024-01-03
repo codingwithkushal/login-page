@@ -163,10 +163,9 @@ select{
      }
      /* Common styles outside media queries */
 
-/* For devices up to 480px width (typical mobile phones) */
 @media (max-width: 480px) {
     .container {
-        padding-right: 30px;
+        padding-right: 10px;
         /* Adjust padding for smaller screens */
         width: 90%;
         /* Occupy most of the screen width */
@@ -176,14 +175,14 @@ select{
 
     .header,
     .head1 {
+        margin-right: 33px;
         margin-top: 25px;
         /* Adjust margins for headers */
-        margin-right: 62px;
     }
 
     .head2 {
+        margin-right: 33px;
         margin-top: -11px;
-	margin-right: 62px;
     }
 
     .date {
@@ -191,49 +190,40 @@ select{
         /* Adjust margin for date */
     }
 
-    .inputemail,.inputtext {
-        width: 277px;
+    .inputemail,
+    .inputtext {
+        width: 325px;
     }
 
     .gender {
         margin-top: -59px;
         /* Adjust position for gender */
-        margin-right: 121px;
+        margin-right: 95px;
         /* Adjust right margin */
     }
 
     .inputname {
-    margin-right: 26px;
-    margin-left: -4px;
-    width: 124px;
+        margin-right: -13px;
+        margin-left: -74px;
     }
 
     select {
         margin-top: 18px;
         /* Adjust margin for select inputs */
-        margin-left: 156px;
+        margin-left: 208px;
         /* Adjust left margin */
     }
 
     .modal-inner {
-        width: 300px;
-    }
+        margin-right: 55px;
+        width: 315px; /* Adjust width for smaller screens */
+        padding: 10px; /* Adjust padding */
+      }
     .checkbox{
         margin: 13px 0 0 -5px;
     }
+    .signup, .backtologin{
+        margin-right: 55px;
+    }
 }
-  /* For devices between 481px and 768px width (larger mobile phones and small tablets) */
-  @media (min-width: 481px) and (max-width: 768px) {
-    /* Adjust styles for medium-sized devices if needed */
-  }
-  
-  /* For devices between 769px and 1024px width (tablets and small laptops) */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    /* Adjust styles for tablets and small laptops if needed */
-  }
-  
-  /* For devices larger than 1024px width (desktops and larger screens) */
-  @media (min-width: 1025px) {
-    /* Adjust styles for larger screens if needed */
-  }
   
