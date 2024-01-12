@@ -4,9 +4,8 @@
 body {
 	background-size: 400% 400%;
 	height: 100vh;
-    background: linear-gradient(90deg, rgba(0,198,255,1) 0%, rgba(201,139,240,1) 50%, rgba(235,0,255,1) 100%);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
-
 .container{
     background-color: rgb(255, 255, 255);
     height: 550px;
