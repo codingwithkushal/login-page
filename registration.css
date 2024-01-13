@@ -5,8 +5,10 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-image: url(/psyche.jpg); */
-    background-color: limegreen;
+    background: #fffbd5;  
+background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  
+background: linear-gradient(to right, #b20a2c, #fffbd5); 
+
 }
 
 .container {
