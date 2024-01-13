@@ -61,17 +61,20 @@ hr {
 }
 
 .inputname {
+background-color: transparent;
     width: 165px;
     height: 20px;
 }
 
 .inputemail {
+background-color: transparent;
     display: grid;
     justify-content: center;
     margin-top: 1px;
 }
 
 .inputtext {
+background-color: transparent;
     margin-top: 14px;
     width: 359px;
     height: 20px;
