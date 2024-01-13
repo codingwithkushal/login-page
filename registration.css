@@ -12,7 +12,8 @@ background: linear-gradient(to right, #b20a2c, #fffbd5);
 }
 
 .container {
-    background-color: rgb(255, 255, 255);
+   Backdrop-filter: blur(15px); 
+        background: rgba(255, 255, 255, 0.2);
     height: 550px;
     margin: auto;
     width: 375px;
