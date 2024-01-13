@@ -70,6 +70,7 @@ hr{
     color:white;
 }
 .homeinput{
+   background-color: transparent;
     width: 280px;
     border-radius: 24px;
     padding: 5px 5px;
